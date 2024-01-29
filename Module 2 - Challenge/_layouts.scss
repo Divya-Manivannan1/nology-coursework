@@ -1,0 +1,15 @@
+nav{
+    display: flex;
+    height: 10vh;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    *{
+        margin: 3vh;
+    }
+    
+}

@@ -1,1 +1,32 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Poor+Story&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap");
+nav {
+  display: flex;
+  height: 10vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header * {
+  margin: 3vh;
+}
+
+nav img {
+  size: 100%, 10vh;
+}
+
+header .discription {
+  font-size: 3vh;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-weight: 1000;
+  color: rgb(57, 174, 212);
+}
+
+* {
+  background-color: rgb(239, 231, 227);
+  font-family: "Roboto", sans-serif;
+  color: rgb(39, 87, 133);
+}/*# sourceMappingURL=main.css.map */

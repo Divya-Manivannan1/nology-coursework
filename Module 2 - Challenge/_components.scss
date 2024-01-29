@@ -1,0 +1,18 @@
+@use "./variables" as *;
+
+nav{
+    img{
+        size: 100%, 10vh;
+    }
+}
+
+header{
+    .discription{
+        font-size: 3vh;
+        font-family: $font-intro;
+        text-align: center;
+        font-weight: 1000;
+        color: $color-light-blue;
+
+    }
+}
