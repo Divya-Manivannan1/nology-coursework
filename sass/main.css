@@ -14,6 +14,14 @@
   align-items: center;
 }
 
+.form-background {
+  background-color: #28527a;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
 .button {
   display: block;
   width: 100px;
@@ -57,6 +65,29 @@
 .wave {
   fill-opacity: 1;
   fill: #28527a;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  padding: 2vh;
+  margin: 2vh;
+  border: 2px solid;
+  background-color: #225f98;
+  color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+form label {
+  font-family: "Roboto", "sans-serif";
+  color: #fafafa;
+}
+form input[type=submit] {
+  background-color: #fafafa;
+  color: #225f98;
+  border: none;
+  font-size: 1.2em;
 }
 
 a:link, a:visited {
