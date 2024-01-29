@@ -14,10 +14,11 @@
   align-items: center;
 }
 
-.form-background {
+#contact-form {
   background-color: #28527a;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
 }
@@ -65,13 +66,13 @@
 .wave {
   fill-opacity: 1;
   fill: #28527a;
-  margin: 0;
+  margin: -2vh;
   padding: 0;
 }
 
 form {
   padding: 2vh;
-  margin: 2vh;
+  margin: 10vh;
   border: 2px solid;
   background-color: #225f98;
   color: #fafafa;
@@ -84,9 +85,9 @@ form label {
   color: #fafafa;
 }
 form input[type=submit] {
-  background-color: #fafafa;
-  color: #225f98;
-  border: none;
+  color: #fafafa;
+  background-color: #28527a;
+  border: 2px solid;
   font-size: 1.2em;
 }
 

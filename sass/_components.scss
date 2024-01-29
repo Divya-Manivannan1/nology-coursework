@@ -48,13 +48,13 @@
 .wave{
     fill-opacity: 1;
     fill: $color-primary;
-    margin:0;
+    margin:-2vh;
     padding:0;
 }
 
 form{
     padding: 2vh;
-    margin:2vh;
+    margin:10vh;
     border: 2px solid;
     background-color: $color-primary-light;
     color: $color-white;
@@ -68,9 +68,9 @@ form{
     }
 
     input[type=submit]{
-        background-color: $color-white;
-        color: $color-primary-light;
-        border: none;
+        color: $color-white;
+        background-color: $color-primary;
+        border: 2px solid;
         font-size: 1.2em;
     }
 }

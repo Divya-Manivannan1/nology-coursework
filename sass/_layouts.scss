@@ -16,10 +16,11 @@
     align-items:center;  
 }
 
-.form-background{
+#contact-form{
     background-color: $color-primary;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
 }
