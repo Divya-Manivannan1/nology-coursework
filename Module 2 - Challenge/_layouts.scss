@@ -1,3 +1,6 @@
+@use "./variables" as *;
+
+
 nav{
     display: flex;
     height: 10vh;
@@ -10,6 +13,25 @@ header{
     align-items: center;
     *{
         margin: 3vh;
-    }
-    
+    }  
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vh;
+    background-color: $color-footer;
+    *{
+        margin: 1vh;
+        text-decoration: none;
+        background-color: $color-footer;
+        font-weight:bold;
+    }  
 }
