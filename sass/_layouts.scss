@@ -1,0 +1,17 @@
+@use "./variables" as *;
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-black;
+}
+
+.header{
+    height: 70vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;  
+}
