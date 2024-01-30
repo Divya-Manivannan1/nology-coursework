@@ -20,7 +20,7 @@ nav{
         font-size:1.2em;
         font-weight: 600;
         border: 2px solid;
-        border-radius: 8%;
+        border-radius: 8px;
         margin: 2vh;
         padding: 1vh 2vh;
     }
@@ -56,4 +56,14 @@ header{
         font-size: 2vh;
         line-height: 3vh;
     }
+}
+
+button{
+    background-color: $color-dark-blue;
+    border: none;
+    color: $color-white;
+    padding: 1.5vh 6vh;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: 500;
 }
