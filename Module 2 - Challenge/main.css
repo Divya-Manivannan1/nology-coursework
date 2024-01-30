@@ -23,6 +23,7 @@ header * {
   flex-direction: column;
   align-items: center;
   padding: 2vh;
+  margin: 0 2vh;
 }
 
 footer {
@@ -99,23 +100,35 @@ button {
   font-weight: 500;
 }
 
-.features * {
-  padding: 2vh;
-}
 .features__title {
   font-size: 2.8vh;
   font-weight: 500;
 }
 .features__card {
   margin: 3vh 0;
-  padding: 0;
   display: flex;
+  align-items: center;
 }
 .features__card__image {
   height: 15vh;
   padding: 0;
   margin: 0;
   flex-basis: 10vh;
+}
+.features__card__discription {
+  font-size: 2vh;
+  line-height: 3vh;
+  padding: 2vh;
+}
+.features__card__discription * {
+  margin: 0;
+  padding: 0;
+}
+.features__card__discription__bold {
+  font-weight: bold;
+}
+.features__card__discription__italic {
+  font-style: italic;
 }
 
 footer * {
