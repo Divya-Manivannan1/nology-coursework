@@ -12,6 +12,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-items: flex-start;
+  padding: 2vh;
 }
 header * {
   margin: 3vh;
@@ -63,11 +64,33 @@ nav a {
 }
 
 header .discription {
-  font-size: 3vh;
-  font-family: "Nunito", sans-serif;
+  font-size: 4vh;
   text-align: center;
-  font-weight: 1000;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
   color: rgb(57, 174, 212);
+  padding-left: 3vh;
+  padding-right: 3vh;
+}
+header .line1 {
+  font-size: 3vh;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 4.5vh;
+}
+header .line2 {
+  font-size: 3vh;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  color: rgb(57, 174, 212);
+}
+header .line3 {
+  font-size: 3vh;
+  text-align: center;
+  font-size: 2vh;
+  line-height: 3vh;
 }
 
 * {
