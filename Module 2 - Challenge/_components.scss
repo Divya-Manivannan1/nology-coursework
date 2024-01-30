@@ -77,7 +77,13 @@ button{
         font-weight: 500;
     }
     &__card{
-        
+        display:flex;
+        &__image{
+            height:10vh;
+            padding:0;
+            margin: 0;
+            flex-basis: 10vh;
+        }     
     }
 }
 

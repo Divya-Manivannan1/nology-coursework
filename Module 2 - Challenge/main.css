@@ -106,6 +106,16 @@ button {
   font-size: 2.5vh;
   font-weight: 500;
 }
+.features__card {
+  display: flex;
+}
+.features__card__image {
+  height: 10vh;
+  padding: 0;
+  margin: 0;
+  flex-basis: 10vh;
+}
+
 footer * {
   margin: 1vh;
   text-decoration: none;
