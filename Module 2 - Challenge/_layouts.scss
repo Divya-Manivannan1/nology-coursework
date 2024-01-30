@@ -24,19 +24,14 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-}S
+}
 
 footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1vh;
     width: 100%;
     background-color: $color-footer;
-    *{
-        margin: 1vh;
-        text-decoration: none;
-        background-color: $color-footer;
-        font-weight:bold;
-    }  
+    margin-top: 4vh;
+    padding: 2vh;
 }

@@ -67,3 +67,15 @@ button{
     font-size: 1.2em;
     font-weight: 500;
 }
+
+
+
+footer{
+    *{
+        margin: 1vh;
+        text-decoration: none;
+        background-color: $color-footer;
+        font-size: 1.2em;
+        font-weight: 400;
+    }  
+}
