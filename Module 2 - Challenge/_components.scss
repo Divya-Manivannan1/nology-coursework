@@ -73,13 +73,15 @@ button{
         padding:2vh;
     }
     &__title{
-        font-size: 2.5vh;
+        font-size: 2.8vh;
         font-weight: 500;
     }
     &__card{
+        margin:3vh 0;
+        padding:0;
         display:flex;
         &__image{
-            height:10vh;
+            height:15vh;
             padding:0;
             margin: 0;
             flex-basis: 10vh;
