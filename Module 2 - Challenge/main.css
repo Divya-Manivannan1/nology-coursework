@@ -99,6 +99,13 @@ button {
   font-weight: 500;
 }
 
+.features * {
+  padding: 2vh;
+}
+.features__title {
+  font-size: 2.5vh;
+  font-weight: 500;
+}
 footer * {
   margin: 1vh;
   text-decoration: none;
