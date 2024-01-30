@@ -1,8 +1,28 @@
 @use "./variables" as *;
 
 nav{
-    img{
-        size: 100%, 10vh;
+    .logo{
+        display:flex;
+        align-items:center;
+        img{
+            width:8vh;
+            height:8vh;
+        }
+        .website-name{
+            font-family: $font-logo;
+            font-size: 7vh;
+            font-weight: 900;
+            padding: 1vh;
+        }
+    }
+    a{
+        text-decoration: none;
+        font-size:1.2em;
+        font-weight: 600;
+        border: 2px solid;
+        border-radius: 8%;
+        margin: 2vh;
+        padding: 1vh 2vh;
     }
 }
 
