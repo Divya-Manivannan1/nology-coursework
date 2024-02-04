@@ -1,0 +1,39 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: justify;
+    background-color: beige;
+}
+
+h1{
+    color: beige;
+    text-align: center;
+    background-color: maroon;
+}
+
+div{
+    margin:2vh;
+    color: maroon;
+}
+
+input{
+    color:maroon;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+button{
+    background-color: maroon;
+    color: beige;
+    border: none;
+    border-radius: 20px;
+    padding:2vh;
+}
+
+#greatestNumber{
+    margin: 2vh;
+    padding: 1vh;
+    text-align: center;
+}
+

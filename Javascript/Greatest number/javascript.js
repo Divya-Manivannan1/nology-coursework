@@ -1,6 +1,5 @@
 function checkIfPositiveOrNegative(event){
     const num=Number(event.target.value)
-    alert(num)
     if(num != NaN){
         if(num>0){
             alert("It is a positive number")
