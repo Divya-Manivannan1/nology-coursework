@@ -9,9 +9,11 @@
 </head>
 <body>
     <h1>Find the greatest number and check if a number is positive or negative.</h1>
-    <div>Enter the first number:<input type="text" onblur="checkIfPositiveOrNegative(event)"></div>
-    <div>Enter the second number: <input type="text" onblur="checkIfPositiveOrNegative"></div>
-    <div>Enter the third number: <input type="text" onblur="checkIfPositiveOrNegative"></div>
+    <div>Enter the first number:<input type="text" id="number1" onblur="checkIfPositiveOrNegative(event)"></div>
+    <div>Enter the second number: <input type="text" id="number2" onblur="checkIfPositiveOrNegative(event)"></div>
+    <div>Enter the third number: <input type="text" id="number3" onblur="checkIfPositiveOrNegative(event)"></div>
+    <button onclick="checkForGreatestNumber(event)">Find the greatest number</button>
+    <input readonly id="greatestNumber">
     
 </body>
 </html>
