@@ -18,7 +18,7 @@ function calculateDaysUntilWeekend(){
             outputValue = "Your weekend starts tomorrow!!"
             break
         case "SATURDAY" || "SUNDAY":
-            outputValue = "It's the weekend"
+            outputValue = "It's the weekend!!!"
             break
         default:
             outputValue = "Sorry we didn't recognize that day"

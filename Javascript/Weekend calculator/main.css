@@ -1,0 +1,37 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: justify;
+    background-color: powderblue;
+    color: darkblue;
+    font-size: 2em;
+}
+
+input{
+    border:none;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgb(93, 217, 234);
+    box-shadow: 0  0 5px 0 darkblue;
+    color: darkblue;
+    font-size: 30px;
+    padding: 5px;
+}
+
+input:hover{
+    box-shadow: 0 0 5px 0 darkblue inset;
+}
+
+#daysLeft{
+    width:75%;
+
+}
+
+button{
+    color: rgb(93, 217, 234);
+    background-color: darkblue;
+    padding: 5px 10px;
+    font-size: 30px;
+    border-radius: 30px;
+}
