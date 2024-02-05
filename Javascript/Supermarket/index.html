@@ -9,28 +9,14 @@
 </head>
 <body>
     <h1>Select an item to find out it's price</h1>
-    <legent>Please select a veggie:</legent>
-    <div>
-        <input type="radio" name="veg" id="carrot" />
-            <label for="carrot">Carrots</label>
-    </div>
-    <div>
-        <input type="radio" name="veg" id="carrot" />
-            <label for="potato">Potatoes</label>
-    </div>
-    <div>
-        <input type="radio" name="veg" id="carrot" />
-            <label for="brocoli">Brocoli</label>
-    </div>
-    <div>
-        <input type="radio" name="veg" id="carrot" />
-            <label for="cabbage">Cabbage</label>
-    </div>
-    <div>
-        <input type="radio" name="veg" id="carrot" />
-            <label for="asparagus">Asparagus</label>
-    </div>
-    
+    <legent for="vegies">Please select a veggie:</legent>
+    <select name="vegies" id="veg" onchange="diaplayPrice(event)">
+        <option value="carrot">Carrots</option>
+        <option value="potato">Potatoes</option>
+        <option value="brocolli">Brocolli</option>
+        <option value="cabbage">Cabbage</option>
+        <option value="asparagus">Asparagus</option>
+    </select>    
 
 </body>
 </html>
