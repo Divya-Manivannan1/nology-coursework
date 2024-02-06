@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football score keeper</title>
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <h1>Football score keeper</h1>
+    <div>
+        <input readonly type="text" id="team1Score" value="0"/> : 
+        <input readonly type="text" id="team2Score" value="0"/>
+    </div>
+    <div>
+        Team one: 
+        <button onclick="handleTeamOneScoreButton()">Team one scores!!</button>
+    </div>
+    <div>
+        Team two: 
+        <button onclick="handleTeamTwoScoreButton()">Team two scores!!</button>
+    </div>
+    <button onclick="handleStopameButton()">Click to stop the game</button>
+</body>
+</html>
