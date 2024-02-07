@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+*{
+    margin: 2vh;
+    font-size: 4vh;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+button{
+    padding: 2vh 1vh;
+    box-shadow: 1vh 1vh 1vh 0;
+}
