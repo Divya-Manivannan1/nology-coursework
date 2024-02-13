@@ -39,5 +39,19 @@ console.log(getLargestNumber(6,2,3));
 // 4.Write a function that takes an array of names and returns the last name from the array of names.
 const getLastName = (names) => {return(names[names.length-1])};
 let listOfNames=["Charlie","Rob","Andy"];
+
 console.log(getLastName(listOfNames));
 console.log(getLastName(["sam", "Max"]));
+
+// 5.Write a function that takes an array of numbers and returns true if all of the numbers are positive. It should return false if there are one or more negative numbers in the array.
+function allNumbersPositive(numbers){
+    for (index=0; index<numbers.length; index++){
+        if(numbers[index]<0){
+            return (false);
+        }
+    }
+    return (true);
+}
+
+console.log(allNumbersPositive([2,4,5]));
+console.log(allNumbersPositive([5,4,-6]));
