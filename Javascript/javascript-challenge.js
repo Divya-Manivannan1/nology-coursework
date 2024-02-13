@@ -15,3 +15,24 @@ const convertDaysToAge = (amountOfDays) => {return(amountOfDays/365)};
 
 console.log(convertDaysToAge(3650));
 console.log(convertDaysToAge(6570));
+
+// 3.Write a function that takes three numbers and returns the largest of the three numbers.
+const getLargestNumber = function(num1, num2, num3) {
+    let largestNumber = num1;
+    if(num2>num1){
+        if(num3>num2){
+            largestNumber=num3;
+        }
+        else{
+            largestNumber=num2;
+        }
+    }else if(num3>num1){
+        largestNumber=num3
+    }
+    return(largestNumber);
+}
+
+console.log(getLargestNumber(1,2,3));
+console.log(getLargestNumber(2,1,4));
+console.log(getLargestNumber(6,2,3));
+
