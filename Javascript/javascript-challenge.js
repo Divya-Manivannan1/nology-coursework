@@ -36,3 +36,8 @@ console.log(getLargestNumber(1,2,3));
 console.log(getLargestNumber(2,1,4));
 console.log(getLargestNumber(6,2,3));
 
+// 4.Write a function that takes an array of names and returns the last name from the array of names.
+const getLastName = (names) => {return(names[names.length-1])};
+let listOfNames=["Charlie","Rob","Andy"];
+console.log(getLastName(listOfNames));
+console.log(getLastName(["sam", "Max"]));
