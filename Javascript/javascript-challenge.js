@@ -10,3 +10,8 @@ function isNumberPositive(number){
 console.log(isNumberPositive(-1));
 console.log(isNumberPositive(10));
 
+// 2.Write a function that takes a number of days and converts it into an age.
+const convertDaysToAge = (amountOfDays) => {return(amountOfDays/365)};
+
+console.log(convertDaysToAge(3650));
+console.log(convertDaysToAge(6570));
